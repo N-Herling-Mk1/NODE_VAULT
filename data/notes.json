@@ -103,5 +103,14 @@
     "category": "Development",
     "preview": "HTML5 Canvas solar viz with granular surface, color palettes, prominence eruptions, flare spots, border haze slider, zoom widget.",
     "content": "COMPONENT ARCHITECTURE:\n  Layer 0 — Background star field (static, pre-rendered)\n  Layer 1 — Solar disc with granular surface texture\n  Layer 2 — Chromosphere haze (adjustable intensity)\n  Layer 3 — Prominence eruptions (physics-based arcs)\n  Layer 4 — Flare spots (UV/X-ray color mapping)\n  Layer 5 — Corona (radial decay, color palette driven)\n\nAUDIO REACTIVE MAPPING:\n  ΔRMS         → limb brightness pulse\n  Low band     → corona expansion radius\n  Mid band     → haze opacity\n  High band    → flare spot spawn rate\n  Transients   → prominence eruption trigger\n\nCONTROLS:\n  border haze slider — corona/chromosphere blend\n  zoom widget        — canvas scale + pan\n  palette selector   — SDO AIA / SOHO EIT / custom\n\nSTATUS: Prominence eruption physics needs damping fix.\nCorona radial decay tuning in progress."
+  },
+  {
+    "id": "NODE-009",
+    "title": "Test ..",
+    "category": "Test Node",
+    "date": "2026-03-06",
+    "preview": "Testing ...",
+    "content": "Guess what?\nTesting ....",
+    "tags": []
   }
 ]
