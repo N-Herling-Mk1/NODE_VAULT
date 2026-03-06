@@ -275,6 +275,18 @@ function lock() {
   window.location.href = 'index.html';
 }
 
+// ══ HIDE [ EDIT ] ON REMOTE ══════════════
+// localhost → button visible (local server running)
+// GitHub Pages / any other host → button hidden
+(function hideEditOnRemote() {
+  const local = ['localhost','127.0.0.1'].includes(location.hostname);
+  if (!local) {
+    const btn = document.getElementById('btn-edit');
+    if (btn) btn.style.display = 'none';
+  }
+})();
+// ═════════════════════════════════════════
+
 // ══ LOAD NOTES ═══════════════════════════
 async function loadNotes() {
   // Try local server first (CRUD-enabled), fall back to static JSON
