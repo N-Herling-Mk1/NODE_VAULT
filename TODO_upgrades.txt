@@ -1,0 +1,8 @@
+TODO — NODES mk2 Upgrades
+========================
+
+[ ] PIN-derived AES encryption of notes.json (PBKDF2 + Web Crypto API)
+    - Browser derives key from PIN, decrypts live on load
+    - Editor encrypts before sending to server
+    - Repo JSON is pure ciphertext
+
